@@ -31,6 +31,9 @@
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.lbleMailAddress = new System.Windows.Forms.Label();
+            this.clbFavoriteLanguages = new System.Windows.Forms.CheckedListBox();
+            this.lblFavoriteLanguages = new System.Windows.Forms.Label();
+            this.btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblLastName
@@ -61,11 +64,41 @@
             this.lbleMailAddress.TabIndex = 2;
             this.lbleMailAddress.Text = "eMail Address";
             // 
+            // clbFavoriteLanguages
+            // 
+            this.clbFavoriteLanguages.FormattingEnabled = true;
+            this.clbFavoriteLanguages.Location = new System.Drawing.Point(287, 119);
+            this.clbFavoriteLanguages.Name = "clbFavoriteLanguages";
+            this.clbFavoriteLanguages.Size = new System.Drawing.Size(120, 94);
+            this.clbFavoriteLanguages.TabIndex = 3;
+            // 
+            // lblFavoriteLanguages
+            // 
+            this.lblFavoriteLanguages.AutoSize = true;
+            this.lblFavoriteLanguages.Location = new System.Drawing.Point(177, 119);
+            this.lblFavoriteLanguages.Name = "lblFavoriteLanguages";
+            this.lblFavoriteLanguages.Size = new System.Drawing.Size(101, 13);
+            this.lblFavoriteLanguages.TabIndex = 4;
+            this.lblFavoriteLanguages.Text = "Favorite Languages";
+            // 
+            // btnOK
+            // 
+            this.btnOK.Location = new System.Drawing.Point(713, 415);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.TabIndex = 5;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.lblFavoriteLanguages);
+            this.Controls.Add(this.clbFavoriteLanguages);
             this.Controls.Add(this.lbleMailAddress);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblLastName);
@@ -81,6 +114,9 @@
         private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.Label lbleMailAddress;
+        private System.Windows.Forms.CheckedListBox clbFavoriteLanguages;
+        private System.Windows.Forms.Label lblFavoriteLanguages;
+        private System.Windows.Forms.Button btnOK;
     }
 }
 

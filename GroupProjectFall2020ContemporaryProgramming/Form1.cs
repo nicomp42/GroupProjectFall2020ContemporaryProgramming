@@ -21,5 +21,10 @@ namespace GroupProjectFall2020ContemporaryProgramming
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
