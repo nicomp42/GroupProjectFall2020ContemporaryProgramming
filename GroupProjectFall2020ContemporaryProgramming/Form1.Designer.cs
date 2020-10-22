@@ -44,7 +44,6 @@
             this.lblLastName.Size = new System.Drawing.Size(58, 13);
             this.lblLastName.TabIndex = 0;
             this.lblLastName.Text = "Last Name";
-            this.lblLastName.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblFirstName
             // 
@@ -69,7 +68,7 @@
             this.clbFavoriteLanguages.FormattingEnabled = true;
             this.clbFavoriteLanguages.Location = new System.Drawing.Point(287, 119);
             this.clbFavoriteLanguages.Name = "clbFavoriteLanguages";
-            this.clbFavoriteLanguages.Size = new System.Drawing.Size(120, 94);
+            this.clbFavoriteLanguages.Size = new System.Drawing.Size(197, 94);
             this.clbFavoriteLanguages.TabIndex = 3;
             // 
             // lblFavoriteLanguages
@@ -89,7 +88,6 @@
             this.btnOK.TabIndex = 5;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
